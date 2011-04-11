@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/general"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#9e8281"
+	android:paddingLeft="4px" 
+	android:paddingRight="4px" 
+	android:paddingTop="7px"
+	>
+		<TextView
+		    xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:id="@+id/lblTitle"    
+    		android:layout_height="25px" 
+    		android:text="@string/title_note" 
+    		android:layout_width="wrap_content"
+    		style="@style/GlobalLabel"/>
+    	<EditText 
+    		android:singleLine="true" 
+    		android:id="@+id/txtTitulo" 
+    		android:text="" 
+    		android:layout_width="fill_parent" 
+    		android:layout_height="wrap_content" android:inputType="textCapSentences" android:capitalize="characters">
+		</EditText>
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:orientation="horizontal"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content">
+			<TextView
+   				xmlns:android="http://schemas.android.com/apk/res/android"
+    			android:id="@+id/lblText"    
+    			android:layout_height="25px" 
+    			android:text="@string/text_note" 
+    			android:layout_width="wrap_content" 
+    			android:layout_gravity="center_vertical" 
+    			android:minWidth="40px"
+    			style="@style/GlobalLabel"/>
+    		<ImageView android:id="@+id/ImageViewText" 
+    			android:layout_width="wrap_content" 
+    			android:layout_height="wrap_content" 
+    			android:src="@drawable/text" 
+    			android:focusable="true" 
+    			android:focusableInTouchMode="true">
+    		</ImageView>
+		</LinearLayout>
+		<EditText 
+    		android:id="@+id/txtText"     
+    		android:layout_width="fill_parent" 
+    		android:layout_height="fill_parent" 
+    		android:gravity="top" 
+    		android:inputType="textCapSentences|textLongMessage" 
+    		android:scrollbars="vertical" 
+    		android:scrollbarStyle="insideInset" 
+    		android:scrollbarSize="20px">
+		</EditText>
+</LinearLayout>

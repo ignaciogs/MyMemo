@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/multimedia"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#9e8281"
+	android:paddingLeft="4px" 
+	android:paddingRight="4px" 
+	android:paddingTop="7px"
+	>
+	<ScrollView android:id="@+id/svtabmultim" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:orientation="vertical" 
+		android:scrollbarStyle="insideInset">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+		<LinearLayout 
+			android:id="@+id/LinearLayout01" 
+			android:orientation="horizontal"
+			xmlns:android="http://schemas.android.com/apk/res/android" 
+			android:layout_height="wrap_content" 
+			android:layout_width="wrap_content">		
+			<TextView
+	    		xmlns:android="http://schemas.android.com/apk/res/android"
+	    		android:id="@+id/lblPicture"    
+	    		android:layout_height="wrap_content" 
+	    		android:text="@string/text_photos"
+	    		android:layout_width="wrap_content" 
+	    		style="@style/GlobalLabel"/>
+	    		<TextView
+	    		xmlns:android="http://schemas.android.com/apk/res/android"
+	    		android:id="@+id/lblPictue_Parcial"    
+	    		android:layout_height="wrap_content" 
+	    		android:text=""
+	    		android:layout_width="wrap_content" 
+	    		style="@style/GlobalLabel"/>
+	    		<TextView
+	    		xmlns:android="http://schemas.android.com/apk/res/android"
+	    		android:id="@+id/lblPictue_separador"    
+	    		android:layout_height="wrap_content" 
+	    		android:text="/"
+	    		android:layout_width="wrap_content" 
+	    		style="@style/GlobalLabel"/>
+	    		<TextView
+	    		xmlns:android="http://schemas.android.com/apk/res/android"
+	    		android:id="@+id/lblPictue_Total"    
+	    		android:layout_height="wrap_content" 
+	    		android:text=""
+	    		android:layout_width="wrap_content" 
+	    		style="@style/GlobalLabel"/>
+	    </LinearLayout>
+		<LinearLayout 
+			android:id="@+id/LinearLayout01" 
+			android:orientation="horizontal"
+			xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center_horizontal">
+		<ImageButton android:id="@+id/btn_prior_image" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:layout_gravity="center">
+		</ImageButton>	
+		<ImageView android:id="@+id/ImageViewGallery" 
+			android:layout_width="200px" 
+			android:layout_height="200px" 
+			android:layout_gravity="center"
+			android:src="@drawable/nopicture">
+		</ImageView>
+		<ImageButton android:id="@+id/btn_next_image" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:layout_gravity="center">
+		</ImageButton>
+		</LinearLayout>
+		<LinearLayout android:orientation="horizontal"
+	        android:layout_width="fill_parent"
+        	android:layout_height="wrap_content">
+        	<TextView
+	    		xmlns:android="http://schemas.android.com/apk/res/android"
+	    		android:id="@+id/lblSonido"    
+	    		android:layout_height="wrap_content" 
+	    		android:text="@string/text_sonido"
+	    		android:layout_width="wrap_content" 
+	    		android:minWidth="60px" 
+	    		android:layout_gravity="center_vertical"
+	    		style="@style/GlobalLabel"/>
+        </LinearLayout>
+		<LinearLayout android:orientation="horizontal"
+	        android:layout_width="fill_parent"
+        	android:layout_height="wrap_content">			
+			<Spinner 
+	    		android:id="@+id/cmbAudios" 
+	    		android:layout_width="180px" 
+    			android:layout_height="wrap_content" 
+    			android:layout_weight="1" 
+    			android:drawingCacheQuality="auto">
+			</Spinner>
+			<ImageButton android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:id="@+id/btnOptionSoundNote" 
+				android:src="@drawable/sound_btn">
+			</ImageButton>	
+		</LinearLayout>
+		<LinearLayout android:orientation="horizontal"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content" 
+        	android:visibility="gone">
+			<TextView
+	    		xmlns:android="http://schemas.android.com/apk/res/android"
+	    		android:id="@+id/lblVideo"    
+	    		android:layout_height="wrap_content" 
+	    		android:text="@string/text_videos"
+	    		android:layout_width="wrap_content" 
+	    		android:minWidth="60px" 
+	    		android:visibility="invisible"
+	    		style="@style/GlobalLabel"/>
+			<Spinner 
+	    		android:id="@+id/cmbVideo" 
+	    		android:layout_width="180px" 
+    			android:layout_height="wrap_content" 
+    			android:layout_weight="1" 
+    			android:visibility="invisible">
+			</Spinner>
+			<Button 
+	    		android:text="+" 
+	    		android:layout_width="wrap_content" 
+	    		android:layout_height="wrap_content" 
+	    		android:id="@+id/btnOptionVideoNote" 
+	    		android:visibility="invisible">
+			</Button>	
+		</LinearLayout>
+	</LinearLayout>
+	</ScrollView>		
+</LinearLayout>

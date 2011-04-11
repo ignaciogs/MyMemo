@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="app_name">MyMemo</string>
+    <string name="no_notes">*** At present there is no note. Press the menu button to add a new note ***</string>
+    <string name="note_list">Notes list</string>
+    <string name="item_menu_new">New note</string>
+    <string name="item_menu_preferences">Preferences</string>
+    <string name="title_note">Title</string>
+    <string name="text_note">Text</string>
+    <string name="item_menu_visionmapa">Notes on the map</string>
+    <string name="text_sonido">Audio/s</string>
+    <string name="text_photos">Pictures:</string>
+    <string name="text_videos">Picture/s</string>
+    <string name="text_Ok">Ok</string>
+    <string name="text_Cancel">Cancel</string>
+    <string name="text_cbActivarAviso">Activate alarm</string>
+    <string name="text_remember_note">Setting alarm</string>
+    <string name="text_remember_note_date">Date</string>
+    <string name="text_remember_note_time">Time</string>    
+    
+    <string name="item_contextmenu_deletenote">Delete</string>
+    <string name="item_contextmenu_sharenote">Share</string>
+    <string name="item_contextmenu_audiofile">Play audio</string>
+    <string name="item_contextmenu_audiofiles">Play audio/s</string>
+    <string name="item_contextmenu_picturefile">Show picture</string>
+    <string name="item_contextmenu_picturefiles">Show picture/s</string>
+    <string name="item_contextmenu_videofile">Show video</string>
+    <string name="item_contextmenu_videofiles">Show video/s</string>    
+    
+    <string name="msg_NoteSaved">Note saved</string>
+    <string name="msg_NoteDeleted">Note removed</string>
+    <string name="msg_PictureNoteDeleted">Picture removed</string>
+    <string name="msg_NoPictureSelected">No image selected</string>
+    <string name="msg_AudioNoteDeleted">Audio removed</string>
+    <string name="msg_NoAudioSelected">No audio selected</string>
+    <string name="msg_VideoNoteDeleted">Video removed</string>
+    <string name="msg_NoVideoSelected">No video selected</string>
+    
+    <string name="msg_err_PictureNoteDeleted">Unable to delete the picture</string>
+    <string name="msg_err_AudioNoteDeleted">Unable to delete the audio</string>
+    <string name="msg_err_VideoNoteDeleted">Unable to delete the video</string>
+    
+    <string name="caption_contextmenu">Note options</string>
+    <string name="caption_menu_sound_notewindow">Audio options</string>
+    <string name="caption_menu_picture_notewindow">Picture options</string>
+    <string name="caption_menu_video_notewindow">Video options</string>
+    
+    <string name="btnSharePictureNote">Share</string>
+    <string name="btnClosePictureNote">Close</string>
+    
+    <string name="send_mail_Subject">I am sending this note from MyMemo:</string>
+    
+    <string name="preferences_activity_title">MyMemo preferences</string>
+    <string name="preferences_category_Location">Location</string>
+    <string name="preferences_title_save_location">Save location</string>
+    <string name="preferences_summary_save_location">Save the geographical location from where you record the note</string>
+    <string name="preferences_category_notes">Notes</string>
+    <string name="preferences_title_capitalize_title">Capitalize title</string>
+    <string name="preferences_summary_capitalize_title">Auto capitalize the entered text as title</string>    
+    <string name="preferences_title_capitalize_text">Capitalize text</string>
+    <string name="preferences_summary_capitalize_text">Auto capitalize the text entered</string>
+    
+    <string name="automaticTitle">Untitled</string>
+    <string name="notification_text">New reminder</string>
+    
+    <string name="msg_updateLocalization">Location note</string>
+    <string name="msg_desupdateLocalization">The note already has a location, Want to upgrade?</string>
+    <string name="msg_renamefile">Rename file</string>
+    <string name="msg_namenewfile">Enter the new name</string>
+    <string name="note_sing">note</string>
+    <string name="note_plur">notes</string>
+    <string name="msg_DeleteNote">Delete note</string>
+    <string name="msg_DesDeleteNote">Do you want to remove the selected note?</string>
+    <string name="remember_alarm">Alarm set for:</string>
+    <string name="msg_dateAlarm">Date alarm</string>
+    <string name="msg_desdateAlarm">Select the date of the alarm</string>
+    <string name="msg_timeAlarm">Alarm time</string>
+    <string name="msg_destimeAlarm">Select the alarm time</string>
+    <string name="btn_Save_note">Save</string>
+    <string name="menu_note_map">Show the note on the map</string>
+    <string name="duration_alarm">at</string>
+    
+    <string name="item_menu_export">Backup notes</string>
+    <string name="item_menu_import">Restore notes</string>
+    <string name="item_menu_import_export">Backup/Restore notes</string>
+    <string name="msg_AttachFile">Attach files</string>
+    <string name="msg_question_AttachFile">Do you want to attach multimedia files to the note?</string>
+    <string name="msg_affirmation">Yes</string>
+    <string name="msg_Denial">No</string>
+    <string name="msg_finish_export">Export completed</string>
+    <string name="msg_RestoreNotes">Restore notes</string>
+    <string name="msg_Des_RestoreNotes">Are you sure you want to restore the selected? Current data will be lost</string>
+    <string name="msg_FileNotFound">Copy File Not Found</string>
+    <string name="msg_FinishImport">Import completed</string>
+    <string name="caption_browser">(MyMemo) List of backups</string>
+    <string name="caption_contextmenu_browser">Options</string>
+    <string name="msg_Backup_Deleted">Backup removed</string>  
+    <string name="msg_DeleteBackup">Remove backup</string>  
+    <string name="msg_DesDeleteBackup">Are you sure you want to delete the selected backup?</string>
+    <string name="no_backups">There is no backup in the directory of MyMemo</string>
+    <string name="preferences_title_send_mail_location">Send location</string>
+    <string name="preferences_summary_send_mail_location">Included in the text of mail a link to Google maps with the position of the note</string>
+    <string name="text_mail_send_location">This note was written:</string>
+    <string name="preferences_title_show_provider_map">Provider on the map</string>
+    <string name="preferences_summary_show_provider_map">Show on map location provider</string>
+    <string name="Caption_Tab_General">General</string>
+    <string name="Caption_Tab_Multimedia">Files</string>
+    <string name="Caption_Tab_Other">Other</string>
+    <string name="btn_menu_Add_Picture">Add picture</string>
+    <string name="item_menu_order_list">Change order</string>
+    <string name="lblLow_Priority">Low</string>
+    <string name="lblPriority">Priority</string>
+    <string name="lblHigh_Priority">High</string>
+    <string name="caption_menu_ordenr_main_list">Order notes by...</string>
+    <string name="preferences_title_order_notes">Default order</string>
+    <string name="preferences_summary_order_notes">Order by default in the main list of notes</string>
+    <string name="preferences_category_alarms">Alarms</string>    
+    <string name="preferences_title_ringtoneAlarms">Ringtone for alarm</string>
+    <string name="preferences_summary_ringtoneAlarms">Sound for notes with alarm</string>    
+    <string name="FreeHand_Color">Color</string>
+    <string name="FreeHand_Emboss">Emboss</string>
+    <string name="FreeHand_Eraser">Eraser</string>
+    <string name="FreeHand_Clear">Clear</string>
+    <string name="Caption_Tab_FreeHand">FreeHand</string>
+    <string name="Disabled_Location">The phone is off location, location is not saved.</string>
+    
+    <string name="preferences_title_autosave">AutoSave</string>
+    <string name="preferences_summary_autosave">Save the data in the note by pressing the back button</string>
+    <string name="item_contextmenu_refreshlocation">Refresh coordinates</string>
+    
+    <string name="preferences_category_securite">Security</string>
+    <string name="preferences_title_Password">Unlock key</string>
+    <string name="preferences_summary_Password">Key to access all the notes marked as safe</string>
+    <string name="lblOldPass">Current key</string>
+    <string name="lblNewPass">New key</string>
+    <string name="lblRepPass">Repeat key</string>
+    <string name="btnChangePass">Change Password</string>
+    <string name="msg_PassNoIgual">The keys are not equal</string>
+    <string name="msg_IncorectPass">The original password is incorrect</string>
+    <string name="text_Security">Key-protect</string>
+    <string name="text_passwordrequired">ID Required</string>
+    <string name="text_mes_passwordrequired">To do this you must enter the password</string>
+    <string name="msg_PasswordNoConfigure">To use this option you must configure the password in preferences</string>
+</resources>

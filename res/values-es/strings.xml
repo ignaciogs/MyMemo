@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="app_name">MyMemo</string>
+    <string name="no_notes">*** En estos momentos no existe ninguna nota dada de alta. Pulse el botón menu para agregar nuevas ***</string>
+    <string name="note_list">Lista de notas</string>
+    <string name="item_menu_new">Nueva nota</string>
+    <string name="item_menu_preferences">Preferencias</string>
+    <string name="title_note">Título</string>
+    <string name="text_note">Texto</string>
+    <string name="item_menu_visionmapa">Notas en el mapa</string>
+    <string name="text_sonido">Audio/s</string>
+    <string name="text_photos">Imágenes:</string>
+    <string name="text_videos">Vídeo/s</string>
+    <string name="text_Ok">Aceptar</string>
+    <string name="text_Cancel">Cancelar</string>
+    <string name="text_cbActivarAviso">Activar aviso</string>
+    <string name="text_remember_note">Configuración de la alarma</string>
+    <string name="text_remember_note_date">Fecha</string>
+    <string name="text_remember_note_time">Hora</string>    
+    
+    <string name="item_contextmenu_deletenote">Eliminar</string>
+    <string name="item_contextmenu_sharenote">Compartir</string>
+    <string name="item_contextmenu_audiofile">Escuchar audio</string>
+    <string name="item_contextmenu_audiofiles">Escuchar audio/s</string>
+    <string name="item_contextmenu_picturefile">Ver foto</string>
+    <string name="item_contextmenu_picturefiles">Ver foto/s</string>
+    <string name="item_contextmenu_videofile">Ver video</string>
+    <string name="item_contextmenu_videofiles">Ver video/s</string>    
+    
+    <string name="msg_NoteSaved">Nota guardada</string>
+    <string name="msg_NoteDeleted">Nota eliminada</string>
+    <string name="msg_PictureNoteDeleted">Imagen eliminada</string>
+    <string name="msg_NoPictureSelected">Ninguna imagen seleccionada</string>
+    <string name="msg_AudioNoteDeleted">Audio eliminado</string>
+    <string name="msg_NoAudioSelected">Ningún audio seleccionado</string>
+    <string name="msg_VideoNoteDeleted">Video eliminado</string>
+    <string name="msg_NoVideoSelected">Ningún video seleccionado</string>
+    
+    <string name="msg_err_PictureNoteDeleted">No se ha podido eliminar la imagen</string>
+    <string name="msg_err_AudioNoteDeleted">No se ha podido eliminar el audio</string>
+    <string name="msg_err_VideoNoteDeleted">No se ha podido eliminar el video</string>
+    
+    <string name="caption_contextmenu">Opciones sobre la nota</string>
+    <string name="caption_menu_sound_notewindow">Opciones sobre el audio</string>
+    <string name="caption_menu_picture_notewindow">Opciones sobre la foto</string>
+    <string name="caption_menu_video_notewindow">Opciones sobre el video</string>
+    
+    <string name="btnSharePictureNote">Compartir</string>
+    <string name="btnClosePictureNote">Cerrar</string>
+    
+    <string name="send_mail_Subject">Te envío esta nota desde MyMemo:</string>
+    
+    <string name="preferences_activity_title">Preferencias de MyMemo</string>
+    <string name="preferences_category_Location">Localización</string>
+    <string name="preferences_title_save_location">Guardar posición</string>
+    <string name="preferences_summary_save_location">Guarda la posición geográfica desde donde se escribe o modifica la nota</string>
+    <string name="preferences_category_notes">Notas</string>
+    <string name="preferences_title_capitalize_title">Capitalizar título</string>
+    <string name="preferences_summary_capitalize_title">Capitaliza automáticamente el texto introducido como título</string>    
+    <string name="preferences_title_capitalize_text">Capitalizar texto</string>
+    <string name="preferences_summary_capitalize_text">Capitaliza automáticamente el texto introducido como texto</string>
+    
+    <string name="automaticTitle">Sin título</string>
+    <string name="notification_text">Nuevo recordatorio</string>
+    
+    <string name="msg_updateLocalization">Localización de la nota</string>
+    <string name="msg_desupdateLocalization">La nota ya posee una localización ¿Desea actualizarla por la actual?</string>
+    <string name="msg_renamefile">Renombrar fichero</string>
+    <string name="msg_namenewfile">Introduzca el nuevo nombre</string>
+    <string name="note_sing">nota</string>
+    <string name="note_plur">notas</string>
+    <string name="msg_DeleteNote">Eliminar nota</string>
+    <string name="msg_DesDeleteNote">¿Está seguro que desea eliminar la nota seleccionada?</string>
+    <string name="remember_alarm">Alarma programada para el:</string>
+    <string name="msg_dateAlarm">Fecha aviso</string>
+    <string name="msg_desdateAlarm">Seleccione la fecha del aviso</string>
+    <string name="msg_timeAlarm">Hora aviso</string>
+    <string name="msg_destimeAlarm">Seleccione la hora del aviso</string>
+    <string name="btn_Save_note">Guardar</string>
+    <string name="menu_note_map">Ver la nota en el mapa</string>
+    <string name="duration_alarm">a las</string>  
+    
+    <string name="item_menu_export">Backup de notas</string>
+    <string name="item_menu_import">Restaurar notas</string>
+    <string name="item_menu_import_export">Backup/Restaurar notas</string>
+    <string name="msg_AttachFile">Adjuntar ficheros</string>
+    <string name="msg_question_AttachFile">¿Desea adjuntar los ficheros multimedia de la nota?</string>
+    <string name="msg_affirmation">Sí</string>
+    <string name="msg_Denial">No</string>
+    <string name="msg_finish_export">Exportación finalizada</string>
+    <string name="msg_RestoreNotes">Restaurar notas</string>
+    <string name="msg_Des_RestoreNotes">¿Está totalmente seguro que desea restaurar la copia seleccionada? Los datos actuales se perderán</string>
+    <string name="msg_FileNotFound">Fichero de copia no encontrado</string>
+    <string name="msg_FinishImport">Importación finalizada</string>
+    <string name="caption_browser">(MyMemo) Lista de backups</string>
+    <string name="caption_contextmenu_browser">Opciones</string>
+    <string name="msg_Backup_Deleted">Backup eliminado</string>  
+    <string name="msg_DeleteBackup">Eliminar backup</string>  
+    <string name="msg_DesDeleteBackup">¿Está seguro que desea eliminar el backup seleccionado?</string>
+    <string name="no_backups">No existe ningún backup en el directorio de MyMemo</string>
+    <string name="preferences_title_send_mail_location">Enviar localización</string>
+    <string name="preferences_summary_send_mail_location">Incluye en el texto del mail un link a google maps con la posición de la nota</string>
+    <string name="text_mail_send_location">Esta nota fue tomada en:</string>
+    <string name="preferences_title_show_provider_map">Proveedor en el mapa</string>
+    <string name="preferences_summary_show_provider_map">Mostrar en el mapa el proveedor de la localización de la nota</string>
+    <string name="Caption_Tab_General">General</string>
+    <string name="Caption_Tab_Multimedia">Ficheros</string>
+    <string name="Caption_Tab_Other">Otros</string>
+    <string name="btn_menu_Add_Picture">Añadir foto</string>
+    <string name="item_menu_order_list">Cambiar ordenación</string>
+    <string name="lblLow_Priority">Baja</string>
+    <string name="lblPriority">Prioridad</string>
+    <string name="lblHigh_Priority">Alta</string>
+    <string name="caption_menu_ordenr_main_list">Ordenar las notas por...</string>
+    <string name="preferences_title_order_notes">Ordenación por defecto</string>
+    <string name="preferences_summary_order_notes">Ordenación por defecto en la lista principal de notas</string>
+    <string name="preferences_category_alarms">Avisos</string>
+    <string name="preferences_title_ringtoneAlarms">Sonido</string>
+    <string name="preferences_summary_ringtoneAlarms">Sonido para las notas con alarma programado</string>
+    <string name="FreeHand_Color">Color</string>
+    <string name="FreeHand_Emboss">Relieve</string>
+    <string name="FreeHand_Eraser">Goma de borrar</string>
+    <string name="FreeHand_Clear">Limpiar todo</string>
+    <string name="Caption_Tab_FreeHand">M. alzada</string>
+    <string name="Disabled_Location">El teléfono tiene la localización desactivada, ubicación no guardada.</string>
+    
+    <string name="preferences_title_autosave">Guardado automático</string>
+    <string name="preferences_summary_autosave">Guardar los datos de la nota al pulsar el botón atrás</string>
+    <string name="item_contextmenu_refreshlocation">Refrescar coordenadas</string>
+    
+    <string name="preferences_category_securite">Seguridad</string>
+    <string name="preferences_title_Password">Clave desbloqueo</string>
+    <string name="preferences_summary_Password">Clave para poder acceder a todas las notas marcadas como seguras</string>
+    <string name="lblOldPass">Clave actual</string>
+    <string name="lblNewPass">Nueva clave</string>
+    <string name="lblRepPass">Repetir clave</string>
+    <string name="btnChangePass">Modificar Clave</string>
+    <string name="msg_PassNoIgual">Las claves introducidas no son iguales</string>
+    <string name="msg_IncorectPass">La clave original introducida es incorrecta</string>
+    <string name="text_Security">Proteger mediante clave</string>
+    <string name="text_passwordrequired">Identificación requerida</string>
+    <string name="text_mes_passwordrequired">Para realizar esta operación debe introducir la clave</string>
+    <string name="msg_PasswordNoConfigure">Para poder utilizar esta opción debe configurar la clave en preferencias</string>
+</resources>

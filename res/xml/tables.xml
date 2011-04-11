@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<database name="db_MyMemo_app" version="3">
+	<table name="notes" to-string="%title%">
+		<field name="id" obligatory="true" type="integer"/>
+		<field name="title" obligatory="true" type="text" size="128"/>
+		<field name="text" obligatory="false" type="text" />
+		<field name="date" obligatory="false" type="long" />
+		<field name="latitude" obligatory="false" type="float" />
+		<field name="longitude" obligatory="false" type="float" />
+		<field name="provider" obligatory="false" type="text" />
+		<field name="alarm_day" obligatory="false" type="integer" />
+		<field name="alarm_month" obligatory="false" type="integer" />
+		<field name="alarm_year" obligatory="false" type="integer" />
+		<field name="alarm_hour" obligatory="false" type="integer" />
+		<field name="alarm_minute" obligatory="false" type="integer" />
+		<field name="priority" obligatory="false" type="integer" new-in-version="2" />
+		<field name="security" obligatory="false" type="text" size="1" new-in-version="3" />
+	</table>
+	<table name="params" to-string="%title%" new-in-version="3">	
+		<field name="password" obligatory="false" type="text" size="500" new-in-version="3" />
+	</table>
+</database> 

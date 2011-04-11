@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+		<PreferenceCategory android:title="@string/preferences_category_Location">
+			<CheckBoxPreference
+                android:key="checkbox_save_location"
+                android:title="@string/preferences_title_save_location"
+                android:summary="@string/preferences_summary_save_location"                
+                android:defaultValue="true"/>
+                <CheckBoxPreference
+                android:key="checkbox_send_mail_location"
+                android:title="@string/preferences_title_send_mail_location"
+                android:summary="@string/preferences_summary_send_mail_location"                
+                android:defaultValue="true"/>
+                <CheckBoxPreference
+                android:key="checkbox_show_provider_map"
+                android:title="@string/preferences_title_show_provider_map"
+                android:summary="@string/preferences_summary_show_provider_map"                
+                android:defaultValue="true"/>
+		</PreferenceCategory>
+		<PreferenceCategory android:title="@string/preferences_category_notes">
+			<ListPreference
+				android:key="listOrderType"
+				android:title="@string/preferences_title_order_notes"
+				android:summary="@string/preferences_summary_order_notes"				
+				android:defaultValue="0"
+				android:entries="@array/menu_order_list"
+				android:entryValues="@array/menu_order_list_values" />
+			<CheckBoxPreference
+                android:key="checkbox_capitalize_title"
+                android:title="@string/preferences_title_capitalize_title"
+                android:summary="@string/preferences_summary_capitalize_title"
+                android:defaultValue="true"/>
+                <CheckBoxPreference
+                android:key="checkbox_capitalize_text"
+                android:title="@string/preferences_title_capitalize_text"
+                android:summary="@string/preferences_summary_capitalize_text" 
+                android:defaultValue="true"/>                
+                <CheckBoxPreference
+                android:key="checkbox_autosave"
+                android:title="@string/preferences_title_autosave"
+                android:summary="@string/preferences_summary_autosave" 
+                android:defaultValue="true"/>
+		</PreferenceCategory>
+		<PreferenceCategory android:title="@string/preferences_category_alarms">
+				<RingtonePreference
+				android:key="ringtoneAlarms"
+				android:name="Ringtone Preference"
+				android:summary="@string/preferences_summary_ringtoneAlarms"
+				android:title="@string/preferences_title_ringtoneAlarms"
+				 />
+		</PreferenceCategory>			
+		<PreferenceCategory android:title="@string/preferences_category_securite">
+			 <PreferenceScreen
+                android:title="@string/preferences_title_Password"
+                android:summary="@string/preferences_summary_Password">
+					<intent
+				    android:action="android.intent.action.MAIN"
+				    android:targetPackage="com.MyMemo"
+				    android:targetClass="com.MyMemo.PasswordUser" />
+			  </PreferenceScreen>
+		</PreferenceCategory>
+    </PreferenceScreen>

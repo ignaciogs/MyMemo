@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.MyMemo" android:versionName="1.1.4" android:versionCode="14">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+    	<uses-library android:name="com.google.android.maps"></uses-library>
+        <activity android:label="@string/app_name" android:name="main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    
+	
+	<activity android:name="NoteOnMapWindow"></activity>
+	<activity android:name="Preferences"></activity>
+	<receiver android:name=".OnAlarmReceiver" android:process=":remote" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <receiver android:name=".OnBootReceiver">
+		<intent-filter>
+			<action android:name="android.intent.action.BOOT_COMPLETED" />
+			<category android:name="android.intent.category.LAUNCHER" />
+		</intent-filter>
+	</receiver>
+<activity android:name="DirectoryBrowser"></activity>
+<activity android:name="GalleryImage"></activity>
+<activity android:name="Tab_NoteWindow_General" android:windowSoftInputMode="stateHidden"></activity>
+<activity android:name="Main_NoteWindow"></activity>
+<activity android:name="Tab_NoteWindow_Multimedia"></activity>
+<activity android:name="Tab_NoteWindow_Other"></activity>
+<activity android:name="Tab_NoteWindow_Freehand"></activity>
+<activity android:name="PasswordUser"></activity> 
+
+</application>    
+    <uses-sdk android:minSdkVersion="3" android:targetSdkVersion="4" />
+
+<supports-screens
+	android:smallScreens="true"
+	android:normalScreens="true"
+	android:largeScreens="true"
+	android:anyDensity="false"
+/>	
+        
+<uses-permission android:name="android.permission.CAMERA"></uses-permission>
+<uses-permission android:name="android.permission.RECORD_AUDIO"></uses-permission>
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission> 
+<uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+ 
+
+</manifest> 

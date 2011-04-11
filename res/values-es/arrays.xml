@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_audio_notewindow">
+    	<item>Escuchar audio</item>
+        <item>Añadir audio</item>
+        <item>Eliminar audio</item>
+        <item>Renombrar audio</item>
+    </string-array>    
+    <string-array name="menu_picture_notewindow">
+    	<item>Ver foto</item>
+        <item>Eliminar foto</item>        
+    </string-array>
+    <string-array name="menu_video_notewindow">
+    	<item>Ver video</item>
+        <item>Añadir video</item>
+        <item>Eliminar video</item>
+        <item>Renombrar video</item>        
+    </string-array>
+    <string-array name="menu_order_list">
+    	<item>Sin ordenación</item>
+        <item>Prioridad desc</item>
+        <item>Prioridad asc</item>
+        <item>Fecha desc</item>
+        <item>Fecha asc</item>
+        <item>Título desc</item>
+        <item>Título asc</item>        
+    </string-array>
+    <string-array name="menu_order_list_values">
+    	<item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+        <item>"6"</item>        
+    </string-array>  
+    <string-array name="menu_export_import_notes">
+    	<item>@string/item_menu_export</item>
+    	<item>@string/item_menu_import</item>
+    </string-array>
+</resources>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/other"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#9e8281"
+	android:paddingLeft="4px" 
+	android:paddingRight="4px" 
+	android:paddingTop="7px"
+	>
+	<ScrollView android:id="@+id/ScrollViewtab_other" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:orientation="vertical" 
+		android:scrollbarStyle="insideInset">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+	<CheckBox 
+		android:text="@string/text_cbActivarAviso" 
+		android:id="@+id/cbActivarAviso" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		style="@style/GlobalLabel">
+	</CheckBox>
+	<TextView
+    	xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:id="@+id/lblRemenberNote"    
+    	android:text="@string/remember_alarm" 
+    	android:layout_width="fill_parent" 
+    	android:paddingLeft="55px" 
+    	android:layout_height="45px"
+    	style="@style/GlobalLabel"/>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  		android:orientation="horizontal"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:paddingLeft="5px" 
+		android:paddingRight="5px">
+		<TextView
+    	xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:id="@+id/lblPriority_Low"    
+    	android:text="@string/lblLow_Priority" 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="25px"
+    	android:layout_weight="1"
+    	style="@style/GlobalLabel"/>    	
+    	<TextView
+    	xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:id="@+id/lblPriority"    
+    	android:text="@string/lblPriority" 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="25px"
+    	android:layout_gravity="center"    	
+    	android:layout_weight="2"
+    	style="@style/GlobalLabel"/>
+    	<TextView
+    	xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:id="@+id/lblPriority_Hight"    
+    	android:text="@string/lblHigh_Priority" 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="25px"    	
+    	android:layout_gravity="right"
+    	style="@style/GlobalLabel"/>
+	</LinearLayout>	
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  		android:orientation="horizontal"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:paddingLeft="5px" 
+		android:paddingRight="5px">
+   		<ImageView android:id="@+id/ivPriority1" 
+   			android:layout_width="wrap_content" 
+   			android:layout_height="wrap_content" 
+   			android:src="@drawable/priority_empty"
+   			android:layout_marginLeft="15px" 
+   		>   		
+   		</ImageView>
+   		<ImageView android:id="@+id/ivPriority2" 
+   			android:layout_width="wrap_content" 
+   			android:layout_height="wrap_content" 
+   			android:src="@drawable/priority_empty"
+   			android:layout_marginLeft="15px" 
+   		>   		
+   		</ImageView>
+   		<ImageView android:id="@+id/ivPriority3" 
+   			android:layout_width="wrap_content" 
+   			android:layout_height="wrap_content" 
+   			android:src="@drawable/priority_empty"
+   			android:layout_marginLeft="15px" 
+   		>   		
+   		</ImageView>
+   		<ImageView android:id="@+id/ivPriority4" 
+   			android:layout_width="wrap_content" 
+   			android:layout_height="wrap_content" 
+   			android:src="@drawable/priority_empty"
+   			android:layout_marginLeft="15px" 
+   		>   		
+   		</ImageView>
+   		<ImageView android:id="@+id/ivPriority5" 
+   			android:layout_width="wrap_content" 
+   			android:layout_height="wrap_content" 
+   			android:src="@drawable/priority_empty"
+   			android:layout_marginLeft="15px" 
+   		>   		
+   		</ImageView>
+   		<ImageView android:id="@+id/ivPriority6" 
+   			android:layout_width="wrap_content" 
+   			android:layout_height="wrap_content" 
+   			android:src="@drawable/priority_empty"
+   			android:layout_marginLeft="15px" 
+   		>   		
+   		</ImageView>				
+	</LinearLayout>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  		android:orientation="horizontal"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:paddingLeft="5px" 
+		android:paddingRight="5px"
+		android:paddingTop="10px">
+		<CheckBox 
+		android:text="@string/text_Security" 
+		android:id="@+id/chkSecurity" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		style="@style/GlobalLabel">
+		</CheckBox>
+	</LinearLayout>
+	</LinearLayout>
+	</ScrollView>
+</LinearLayout>

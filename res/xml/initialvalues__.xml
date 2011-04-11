@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<values>
+		<row table="notes" id="1">
+			<field name="title" value="Nota Uno" />
+		</row>
+		<row table="notes" id="2">
+			<field name="title" value="Nota Dos" />
+			<field name="text" value="Este es el texto de la nota dos" />					
+		</row>
+		<row table="notes" id="3">
+			<field name="title" value="Nota Tres" />
+		</row>
+	</values> 
